@@ -1,0 +1,43 @@
+.body, html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body__logo-size {
+    width: 110.50px;
+    height: 74px;
+}
+
+.body__header {
+    margin: 36px 44px 36px 49px;
+}
+
+.body__social {}
+
+.body__social-icon {
+    margin: 7px;
+}
+
+.body__social-lang {
+    color: var(--font__color-basic);
+}
+
+.bg {
+    background: url("/test.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    /* background-position: right 35% top ; */
+    width: 100%;
+    height: 5599.82px;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 0;
+}
