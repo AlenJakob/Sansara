@@ -5,8 +5,8 @@
   --font__weight-sm: 500;
   --font__weight-md: 700;
   --font__weight-lg: bold;
-  /* Backgrounds */
-  /* Colors */
+  /* Colors | Backgrounds */
+  --background-none: transparent;
   --color__main: #caf2f1;
   --color__primary: #868782;
   --color__primary-light: #586967;
@@ -21,5 +21,5 @@
   /* Flex Alignments */
   --flex-align-start: start;
   --flex-align-center: center;
-  --flex-align-center: end;
+  --flex-align-end: end;
 }
