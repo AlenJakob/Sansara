@@ -6,8 +6,8 @@
   --font__weight-md: 700;
   --font__weight-lg: bold;
   /* Backgrounds */
-  --background__main-color: rgba(202, 242, 241, 1);
   /* Colors */
+  --color__main: #caf2f1;
   --color__primary: #868782;
   --color__primary-light: #586967;
   --color__primary-dark: #333d3c;
