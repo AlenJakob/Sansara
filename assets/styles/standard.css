@@ -50,8 +50,8 @@ h5 {
   letter-spacing: 1.8px;
 }
 .body__hero-title.title-xl {
-  font-weight: var(--font__weight-sm);
-  color: var(--color__primary-light);
+  font-weight: var(--font__weight-md);
+  color: var(--color__primary-dark);
 }
 .title-primary {
   margin: 58px 0 38px 0;
