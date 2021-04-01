@@ -1,43 +1,59 @@
-.body, html {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+
+.bg {
+  background: url("/assets/images/background-right.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  /* background-position: right 35% top ; */
+  width: 100%;
+  height: 5599.82px;
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  top: 0;
 }
 
 .body__header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .body__logo-size {
-    width: 110.50px;
-    height: 74px;
+  width: 110.5px;
+  height: 74px;
 }
-
 .body__header {
-    margin: 36px 44px 36px 49px;
+  margin: 36px 44px 36px 49px;
 }
 
-.body__social {}
+.body__social {
+}
 
 .body__social-icon {
-    margin: 7px;
+  transition: 0.2s;
+  margin: 4px;
+  opacity: 0.8;
 }
 
+.body__social-icon:hover {
+  opacity: 1;
+}
 .body__social-lang {
-    color: var(--font__color-basic);
+  color: var(--font__color-basic);
 }
 
-.bg {
-    background: url("/test.png");
-    background-repeat: no-repeat;
-    background-position: right top;
-    /* background-position: right 35% top ; */
-    width: 100%;
-    height: 5599.82px;
-    position: absolute;
-    z-index: -1;
-    right: 0;
-    top: 0;
+.body__hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text__align-end {
+  text-align: end;
+}
+.text__align-center {
+  text-align: center;
+}
+.text__align-start {
+  text-align: start;
 }

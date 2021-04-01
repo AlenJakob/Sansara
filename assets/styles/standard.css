@@ -1,17 +1,59 @@
-.body {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+body,
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-
-h1, h2, h3, h4, h5 {
-    text-transform: uppercase;
-}
-
-h1, h2, h3, h4, h5, span {
-    color: var(--font__color-primary);
-    font-weight: var(--font__weight-secondary);
-}
-
 * {
-    font-family: var(--header__font-webpro);
+  text-decoration: none;
+  color: var(--font__color-primary);
+  font-family: var(--primary__font-webpro);
+}
+.column-4 {
+  width: 33.33%;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+span {
+  font-weight: var(--font__weight-secondary);
+}
+.title-sm {
+  font-size: var(--font-size-sm);
+}
+.title-md {
+  font-size: var(--font-size-md);
+}
+.title-xl {
+  font-size: var(--font-size-lg);
+}
+.title-xl {
+  font-size: var(--font-size-xl);
+}
+.title-2xl {
+  font-size: var(--font-size-2xl);
+}
+.title-3xl {
+  font-size: var(--font-size-3xl);
+}
+
+.body__social-lang .link {
+  font-weight: var(--font__weight-md);
+  font-size: 1.2rem;
+  letter-spacing: 1.8px;
+}
+.body__hero-title {
+  color: var(--color__primary-light);
 }

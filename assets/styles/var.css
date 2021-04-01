@@ -1,20 +1,25 @@
 :root {
-    --header__font-sofia: "sofia-pro";
-    --header__font-webpro: "ff-good-headline-web-pro-ext";
-    --background__gradient: rgba(202, 242, 241, 1);
-}
-
-:root {
-    --color__primary: #868782;
-    --color__primary-light: #586967;
-    --color__primary-dark: #333d3c;
-    --font__weight-md: 700;
-    --font__weight-lg: bold;
-    /* Font Sizes */
-    --font-size-sm: 14px;
-    --font-size-md: 16px;
-    --font-size-lg: 18px;
-    --font-size-xl: 24px;
-    --font-size-2xl: 40px;
-    --font-size-3xl: 80px;
+  --primary__font-webpro: "ff-good-headline-web-pro-ext";
+  --secondary__font-sofia: "sofia-pro";
+  /* Font Weights */
+  --font__weight-sm: 500;
+  --font__weight-md: 700;
+  --font__weight-lg: bold;
+  /* Backgrounds */
+  --background__main-color: rgba(202, 242, 241, 1);
+  /* Colors */
+  --color__primary: #868782;
+  --color__primary-light: #586967;
+  --color__primary-dark: #333d3c;
+  /* Font Sizes */
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 24px;
+  --font-size-2xl: 40px;
+  --font-size-3xl: 80px;
+  /* Flex Alignments */
+  --flex-align-start: start;
+  --flex-align-center: center;
+  --flex-align-center: end;
 }
