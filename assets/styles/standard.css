@@ -49,9 +49,9 @@ h5 {
   font-size: 1.2rem;
   letter-spacing: 1.8px;
 }
-.body__hero-title.title-xl {
+.title-lg {
   font-weight: var(--font__weight-md);
-  color: var(--color__primary-dark);
+  color: var(--color__primary-light);
 }
 .title-primary {
   margin: 58px 0 38px 0;
@@ -64,9 +64,9 @@ h5 {
 }
 .body__hero-scroll {
   position: absolute;
-  left:50%;
-  bottom:-150px;
-  width: 3px;
+  left: 50%;
+  bottom: -150px;
+  width: 2px;
   height: 120px;
   background: var(--color__primary-dark);
 }
