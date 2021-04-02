@@ -1,5 +1,5 @@
 .body__background {
-  background: var(--color__main);
+  background: var(--background-gradient);
   color: var(--color__primary-dark);
 }
 .button {
@@ -12,6 +12,6 @@
   transition: 0.3s;
 }
 .button:hover {
-    border: 2px solid var(--color__primary-dark);
+  border: 2px solid var(--color__primary-dark);
   color: var(--color__primary-dark);
 }
