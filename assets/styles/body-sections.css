@@ -61,8 +61,6 @@
   align-items: center;
 }
 
-.body__hero.title-xl {}
-
 .text__align-end {
   text-align: end;
 }
@@ -87,11 +85,21 @@
   min-height: 636px;
 }
 
-.title {
-  padding-top: 13em;
+.title__scroll {
+  font-size: 1.2em;
+  padding-top: 11em;
   letter-spacing: 2px;
 }
 
 /* SECTION SUMMARY */
 
-.body__summary {}
+.body__summary {
+  justify-content: center;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.column {
+  width: 50%;
+  padding-left: 1em;
+}
