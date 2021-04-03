@@ -1,0 +1,109 @@
+.header__image {
+    position: absolute;
+}
+
+.halfball {
+    top: 0;
+    left: 31%;
+}
+
+.smallball {
+    top: 30px;
+    left: 29%;
+}
+
+.smallball-2 {
+    top: 154px;
+    left: 31%;
+}
+
+.nonregular {
+    top: 110px;
+    left: 26.5%;
+}
+
+.shineball {
+    top: 200px;
+    left: 32%;
+}
+
+/* Box Section */
+
+.header__image {
+    position: absolute;
+}
+
+.body__hero {
+    position: relative;
+}
+
+.body__hero .nonregular-blur {
+    top: -80px;
+    left: 200px;
+}
+
+.body__hero .shine-ballblur-mini {
+    top: 20px;
+    left: 195px;
+    z-index: 15!important;
+}
+
+.body__hero .regular-whiteball {
+    bottom: 160px;
+    left: -220px;
+}
+
+.body__hero .shine-ball-medium {
+    top: 20px;
+    left: 38px;
+    z-index: 15!important;
+}
+
+.body__hero .header-smallball {
+    top: 190px;
+    right: 55px;
+}
+
+.body__hero .header-nonregular-blur {
+    top: 215px;
+    right: 150px;
+}
+
+.body__hero .shine-ball-mini {
+    bottom: 100px;
+    left: 220px;
+}
+
+.body__hero .shine-ball-big {
+    bottom: 60px;
+    right: 7%;
+    z-index: 1;
+}
+
+.body__hero .regular-whiteball-1 {
+    top: 80px;
+    left: 140px;
+}
+
+.body__hero .box-shadow {
+    position: absolute;
+    bottom: -150px;
+    left: 49.5%;
+    transform: translateX(-49.5%);
+    z-index: -15;
+}
+
+.body__hero-box {
+    top: 200px;
+}
+
+.body__hero-box .header__image {
+    z-index: 1;
+}
+
+.body__hero-header {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+}

@@ -2,15 +2,18 @@
   background: var(--background-gradient);
   color: var(--color__primary-dark);
 }
+
 .button {
+  text-transform: uppercase;
   background: var(--background-none);
   border: 2px solid #fff;
   color: #fff;
-  padding: 0.1rem 1rem;
+  padding: 0.4rem 1rem;
   letter-spacing: 2px;
   cursor: pointer;
   transition: 0.3s;
 }
+
 .button:hover {
   border: 2px solid var(--color__primary-dark);
   color: var(--color__primary-dark);
