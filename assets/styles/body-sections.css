@@ -76,13 +76,13 @@
 /* Alignments Images */
 
 .body__hero-box {
+  min-width: 769px;
+  min-height: 636px;
   position: relative;
-  background-image: url("/assets/images/box-1.png");
+  background: url("/assets/images/box-1.png");
   background-repeat: no-repeat;
   background-position: 38px center;
   background-size: cover;
-  min-width: 769px;
-  min-height: 636px;
 }
 
 .title__scroll {
@@ -91,7 +91,7 @@
   letter-spacing: 2px;
 }
 
-/* SECTION SUMMARY */
+/* SECTION SUMMARY LOGO PART*/
 
 .body__summary {
   justify-content: center;
@@ -102,4 +102,125 @@
 .column {
   width: 50%;
   padding-left: 1em;
+}
+
+.body__section-logo {
+  position: relative;
+}
+
+.body__section-logo .cloud__img, .body__section-logo .logo__img {
+  left: 50%;
+}
+
+.body__section-logo .shineball__img {
+  top: 115px;
+  left: 135px;
+}
+
+.body__section-logo .shineballmini__img {
+  top: -8px;
+  right: 110px;
+}
+
+.body__section-logo>* {
+  transform: translateX(-50%);
+  position: absolute;
+}
+
+/* SECTION SUMMARY CONTENT PART*/
+
+.body__section-content {
+  padding-left: 5em;
+}
+
+.summary-content {
+  position: relative;
+  font-weight: var(--font__weight-sm);
+  font-size: var(--font-size-lg);
+  color: var(--color-content-primary);
+  line-height: var(--font-lineHeigh-md);
+  text-shadow: 1px 1px 1px rgba(156, 159, 152, .2);
+}
+
+.summary-content:before {
+  content: "01";
+  position: absolute;
+  left: -30px;
+  font-weight: var(--font__weight-md);
+}
+
+/* SECTION SUMMARY CONTACT PART*/
+
+.body__section-contact {
+  text-transform: uppercase;
+  margin: 3em 0;
+  font-weight: var(--font__weight-md);
+  color: var(--color__primary);
+  font-size: var(--font-size-xl);
+}
+
+.body__section-contact .contact__person {
+  position: relative;
+}
+
+/* .body__section-contact .contact__person .person-name:first-child::after{
+  content:"______";
+ padding-bottom: 12px;
+  color: var(--color__primary-dark);
+} */
+
+.body__section-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.body__section-contact .contact__person {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.1em 0;
+  letter-spacing: 1px;
+}
+
+.contact__person .person-position {
+  position: relative;
+  align-self: center;
+  font-size: var(--font-size-lg);
+  color: var(--color__content-primary)
+}
+
+.person-sub .person-line {
+  height: 2px;
+  width: 100%;
+  background: red;
+}
+
+.person-sub {
+  display: flex;
+  align-items: center;
+}
+
+.person-sub .person-btn {
+  display: flex;
+  align-items: center;
+  background: #bab8ac;
+  color: #fff;
+  transition: 0.3s;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin-left: 10px;
+  padding: 0 8px;
+  height: 24px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: none;
+  font-size: var(--font-size-xl);
+}
+
+.person-sub .person-btn:hover {
+  background: rgba(156, 159, 152, .2);
+}
+
+.contact__person .person-name:after {
+  content: ":"
 }

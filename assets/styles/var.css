@@ -5,17 +5,18 @@
   --font__weight-sm: 500;
   --font__weight-md: 700;
   --font__weight-lg: bold;
+  /* Line Height */
+  --font-lineHeigh-sm: 1em;
+  --font-lineHeigh-md: 1.5em;
+  --font-lineHeigh-lg: 2em;
   /* Colors | Backgrounds */
-  --background-gradient: linear-gradient(
-    90deg,
-    rgba(202, 242, 241, 1) 24%,
-    rgba(243, 221, 195, 1) 86%
-  );
+  --background-gradient: linear-gradient( 90deg, rgba(202, 242, 241, 1) 24%, rgba(243, 221, 195, 1) 86%);
   --background-none: transparent;
   --color__main: #caf2f1;
   --color__primary: #868782;
   --color__primary-light: #586967;
   --color__primary-dark: #333d3c;
+  --color__content-primary: #9c9f98;
   /* Font Sizes */
   --font-size-sm: 14px;
   --font-size-md: 16px;
