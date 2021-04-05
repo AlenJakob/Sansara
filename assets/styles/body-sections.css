@@ -272,8 +272,9 @@
   text-align: end;
   margin: 0;
   font-weight: var(--font-weight-md);
-  color: var(--color-primary);
-  letter-spacing: .8px;
+  color: var(--color-text);
+  opacity: 0.62;
+  letter-spacing: 1px;
   line-height: 1.3em;
 }
 
@@ -286,13 +287,36 @@
 }
 
 .summary-info .summary-el {
+  cursor: pointer;
+  transition: 0.3s;
   font-weight: var(--font-weight-lg);
 }
-
+.summary-el:hover{
+  transform: scale(1.1);
+}
 .summary-info .summary-el:first-child {
   font-size: var(--font-size-2xl);
 }
 
 .summary-info .summary-el:nth-child(2) {
   font-size: var(--font-size-xl);
+}
+
+.summary-arrow {
+  transition: .3s;
+  border-radius: 50%;
+  position: absolute;
+  display: grid;
+  place-items: center;
+  width: 50px;
+  height: 50px;
+  top:50%;
+  right: 80px;
+  transform: translateY(-50%);
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.summary-arrow:hover {
+  opacity: 0.85;
 }
