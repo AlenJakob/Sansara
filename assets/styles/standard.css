@@ -9,8 +9,8 @@ body, html, ul {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-decoration: none;
-  color: var(--font__color-primary);
-  font-family: var(--primary__font-webpro);
+  color: var(--font-color-primary);
+  font-family: var(--primary-font-webpro);
 }
 
 ul li {
@@ -52,14 +52,14 @@ h1, h2, h3, h4, h5 {
 }
 
 .body__social-lang .link {
-  font-weight: var(--font__weight-md);
+  font-weight: var(--font-weight-md);
   font-size: 1.2rem;
   letter-spacing: 1.8px;
 }
 
 .title_lg {
-  font-weight: var(--font__weight-sm);
-  color: var(--color__primary-light);
+  font-weight: var(--font-weight-sm);
+  color: var(--color-primary-light);
 }
 
 .title__primary {
@@ -78,13 +78,13 @@ h1, h2, h3, h4, h5 {
   bottom: -150px;
   width: 2px;
   height: 120px;
-  background: var(--color__primary-dark);
+  background: var(--color-primary-dark);
 }
 
 .body__hero-title.title-lg {
   margin-top: 5em;
-  color: var(--color__primary-light);
-  font-weight: var(--font__weight-sm);
+  color: var(--color-primary-light);
+  font-weight: var(--font-weight-sm);
   font-size: var(--font-size-xl);
   letter-spacing: 3px;
 }
