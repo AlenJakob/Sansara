@@ -10,7 +10,7 @@
   --font-lineHeigh-md: 1.5em;
   --font-lineHeigh-lg: 2em;
   /* Colors | Backgrounds */
-  --background-gradient: linear-gradient( 90deg, rgba(202, 242, 241, 1) 24%, rgba(243, 221, 195, 1) 86%);
+  --background-gradient: linear-gradient( 90deg, rgba(202, 242, 241, 1) 24%, rgba(243, 221, 195, 1) 100%);
   --background-none: transparent;
   --color-text: #455251;
   --color-main: #caf2f1;

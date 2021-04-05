@@ -1,14 +1,3 @@
-.bg {
-  background-repeat: no-repeat;
-  background-position: right top;
-  /* background-position: right 35% top ; */
-  width: 100%;
-  position: absolute;
-  z-index: -1;
-  right: 0;
-  top: 0;
-}
-
 .body__hero-header {
   text-align: center;
   position: absolute;
@@ -17,6 +6,7 @@
 }
 
 .body__header {
+  padding: 27px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,10 +15,6 @@
 .body__logo-size {
   width: 110.5px;
   height: 74px;
-}
-
-.body__header {
-  margin: 36px 44px 36px 49px;
 }
 
 .body__social-icon {
@@ -94,7 +80,6 @@
 /* SECTION SUMMARY LOGO PART*/
 
 .body__summary {
-  justify-content: center;
   margin: 20em auto 2em auto;
 }
 
@@ -174,9 +159,9 @@
 }
 
 .person-line {
-  margin: 0 0.2em;
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
+  margin: 0 0.5em;
   flex-grow: 1;
   position: relative;
 }
@@ -191,17 +176,20 @@
   bottom: -0.35em;
 }
 
+.person-position {
+  margin-bottom: -10px;
+  font-size: var(--font-size-md);
+  letter-spacing: 1px;
+  position: relative;
+  align-self: center;
+  color: var(--color-content-primary)
+}
+
 .person-name {
+  font-size: var(--font-size-xl);
   color: var(--color-primary-dark);
   position: relative;
   text-align: end;
-}
-
-.contact__person .person-position {
-  position: relative;
-  align-self: center;
-  font-size: var(--font-size-lg);
-  color: var(--color-content-primary)
 }
 
 .person-sub {
@@ -267,14 +255,17 @@
 }
 
 .summary-text {
-  border-right: 1px solid var(--color-primary-dark);
+  text-transform: unset;
   padding-right: 2em;
   text-align: end;
   margin: 0;
+  font-family: var(--secondary-font-sofia);
+  border-right: 1px solid var(--color-primary-dark);
+  font-size: var(--font-size-sm);
   font-weight: var(--font-weight-md);
-  color: var(--color-text);
+  color: rgba(69, 82, 82, 0.49);
   opacity: 0.62;
-  letter-spacing: 1px;
+  letter-spacing: .5px;
   line-height: 1.3em;
 }
 
@@ -291,9 +282,11 @@
   transition: 0.3s;
   font-weight: var(--font-weight-lg);
 }
-.summary-el:hover{
+
+.summary-el:hover {
   transform: scale(1.1);
 }
+
 .summary-info .summary-el:first-child {
   font-size: var(--font-size-2xl);
 }
@@ -310,7 +303,7 @@
   place-items: center;
   width: 50px;
   height: 50px;
-  top:50%;
+  top: 50%;
   right: 80px;
   transform: translateY(-50%);
   background-color: var(--color-primary);

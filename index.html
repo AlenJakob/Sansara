@@ -6,18 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://use.typekit.net/mxt0jbh.css" />
   <link rel="stylesheet" href="/assets/styles/var.css" />
-  <link rel="stylesheet" href="/assets/styles/main.css" />
   <link rel="stylesheet" href="/assets/styles/clear.css" />
   <link rel="stylesheet" href="/assets/styles/standard.css" />
   <link rel="stylesheet" href="/assets/styles/body-sections.css" />
   <link rel="stylesheet" href="/assets/styles/unpack-section.css">
   <link rel="stylesheet" href="/assets/styles/background-images.css">
+  <link rel="stylesheet" href="/assets/styles/footer.css">
+  <link rel="stylesheet" href="/assets/styles/rwd.css" />
   <title>Sansara - Alen Jakob</title>
 </head>
 
 
 <body class="body body__background">
-  <div class="bg"></div>
   <!-- HEADER SECTION -->
   <div class="body__header ">
     <!-- body hedader images -->
@@ -28,7 +28,8 @@
     <embed class="smallball-2 header__image" src="/assets/images/svg/header-smallball.svg" type="image/svg+xml">
     <!-- body hedader images -->
     <div class="body__logo column-4">
-      <a href="/"><img class="body__logo-size" src="./assets/images/logo-sansara-1.png" alt="hero logotype" /></a>
+      <a class="header__link" href="/"><img class="body__logo-size" src="./assets/images/logo-sansara-1.png"
+          alt="hero logotype" /></a>
 
     </div>
     <div class="body__social column-4 text__align-center">
@@ -136,7 +137,7 @@
       <ul class="summary-info">
         <li class="summary-el">01 Misja</li>
         <li class="summary-el">02 Wizja</li> <a class=" summary-arrow" href="/">
-        <embed src="/assets/images/svg/arrow.svg" type=""></a>
+          <embed src="/assets/images/svg/arrow.svg" type=""></a>
       </ul>
 
     </div> <embed class="cloud-2" src="/assets/images/svg/cloud-2.svg">
@@ -151,75 +152,98 @@
     <ul class="body__section advantage-section">
       <li class="advantage__item item-first advantage__left">
         <div class="advantage__content">
-          <h2>komfort pracy</h2>
-          <p>Możesz spać spokojnie. W tym czasie
+          <h2 class="advantage__content-hedaer">komfort pracy</h2>
+          <p class="advantage__content-text">Możesz spać spokojnie. W tym czasie
             my zajmiemy się każdym szczegółem
             organizacji, abyś Ty mógł zająć się
             swoimi sprawami.
           </p>
         </div>
-        <embed src="/assets/images/svg/Unpack section/pillow.svg" type="image/svg+xml">
+        <embed class="image-first" src="/assets/images/svg/Unpack section/pillow.svg" type="image/svg+xml">
       </li>
       <!--  -->
       <li class="advantage__item item-second">
         <div class="advantage__content">
-          <h2>Bezpieczeństwoy</h2>
-          <p>Możesz zaufać naszemu doświadczeniu.
+          <h2 class="advantage__content-hedaer">Bezpieczeństwo</h2>
+          <p class="advantage__content-text">Możesz zaufać naszemu doświadczeniu.
             Zapobiegamy wszelkiemu ryzyku, które
             może pojawić się podczas organizacji
             Twojego eventu.
           </p>
         </div>
-        <embed src="/assets/images/svg/Unpack section/jacket.svg" type="image/svg+xml">
+        <embed class="image-second" src="/assets/images/svg/Unpack section/jacket.svg" type="image/svg+xml">
       </li>
       <!--  -->
       <li class="advantage__item item-third advantage__left">
         <div class="advantage__content">
-          <h2>Uznanie</h2>
-          <p>Zawsze bierzemy pod uwagę Twoje
+          <h2 class="advantage__content-hedaer">Uznanie</h2>
+          <p class="advantage__content-text">Zawsze bierzemy pod uwagę Twoje
             pomysły, które mogą uczynić event
             jeszcze lepszym.
           </p>
         </div>
-        <embed src="/assets/images/svg/Unpack section/bulb.svg" type="image/svg+xml">
+        <embed class="image-third" src="/assets/images/svg/Unpack section/bulb.svg" type="image/svg+xml">
       </li>
       <!--  -->
       <li class="advantage__item item-fourth advantage__left">
         <div class="advantage__content">
-          <h2>odliczanie</h2>
-          <p>Wyczekujesz już swojego eventu?
+          <h2 class="advantage__content-hedaer">odliczanie</h2>
+          <p class="advantage__content-text">Wyczekujesz już swojego eventu?
             My też! Możesz być pewien, że
             będzie jedyny w swoim rodzaju.
           </p>
         </div>
-        <embed src="/assets/images/svg/Unpack section/binoculars.svg" type="image/svg+xml">
+        <embed class="image-fourth" src="/assets/images/svg/Unpack section/binoculars.svg" type="image/svg+xml">
       </li>
       <!--  -->
       <li class="advantage__item item-fifth advantage__left">
         <div class="advantage__content">
-          <h2>entuzjazm</h2>
-          <p>Dzisiaj Twój event! Poczuj nieograniczoną
+          <h2 class="advantage__content-hedaer">entuzjazm</h2>
+          <p class="advantage__content-text">Dzisiaj Twój event! Poczuj nieograniczoną
             radość i ciesz się ze swojego wydarzenia,
             a my będziemy czuwać nad jego
             przebiegiem.
           </p>
         </div>
-        <embed src="/assets/images/svg/Unpack section/rollers.svg" type="image/svg+xml">
+        <embed class="image-fifth" src="/assets/images/svg/Unpack section/rollers.svg" type="image/svg+xml">
       </li>
       <!--  -->
       <li class="advantage__item item-sixth advantage__left">
         <div class="advantage__content">
-          <h2>sukces</h2>
-          <p>Event przebiegł według planu,
+          <h2 class="advantage__content-hedaer">sukces</h2>
+          <p class="advantage__content-text">Event przebiegł według planu,
             a Ty możesz odetchnąć z satysfakcją,
             bo wszystko się udało.
           </p>
         </div>
-        <embed src="/assets/images/svg/Unpack section/cup.svg" type="image/svg+xml">
+        <embed class="image-sixth" src="/assets/images/svg/Unpack section/cup.svg" type="image/svg+xml">
       </li>
       <!--  -->
     </ul>
   </div>
+  <footer class="sansara__footer">
+
+    <div class="footer__social"><a class="footer__link" href="/">
+        <img class="footer__logo" src="/assets/images/logo-sansara-3.png"></a>
+      <div class="footer__social-icons">
+        <a class="body__social-icon" href="#instagram">
+          <embed class="footer__link" src="/assets/images/svg/instagram.svg" type="image/svg+xml" /></a>
+
+        <a class="body__social-icon" href="#facebook"><embed class="footer__link" src="/assets/images/svg/facebook.svg"
+            type="image/svg+xml" /></a>
+      </div>
+    </div>
+    <ul class="footer__menu">
+      <li class="menu-item"><a href="">sansara Group</a></li>
+      <li class="menu-item"><a href="">misja & wizja</a></li>
+      <li class="menu-item"><a href="">oferta</a></li>
+      <li class="menu-item"><a href="">realizacje</a></li>
+      <li class="menu-item"><a href="">kontakt</a></li>
+    </ul>
+    <div class="footer__logo-weston"><a href="https://john-weston.com/"> <embed
+          src="/assets/images/logo-johnwestongroup.png" /></a>
+    </div>
+  </footer>
 </body>
 
 </html>

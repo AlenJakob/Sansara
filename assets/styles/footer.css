@@ -1,0 +1,64 @@
+.sansara__footer {
+    box-sizing: border-box;
+    background: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 27px;
+}
+
+.footer__social {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.footer__social-icons {
+    margin-left: 60px;
+}
+
+.footer__menu {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.footer__menu .menu-item {
+    transition: 0.3s;
+    font-weight: 600;
+    text-align: center;
+    margin-right: 65px;
+}
+
+.footer__menu .menu-item:hover {
+    transform: scale(1.2);
+}
+
+.footer__menu .menu-item:last-child {
+    margin-right: 0;
+}
+
+.footer__logo-weston {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer_link {
+    pointer-events: none;
+}
+
+.footer__logo-weston, .footer__logo {
+    transition: 0.3s;
+}
+
+.footer__logo:hover {
+    transform: translateX(10px);
+}
+
+.footer__logo-weston:hover {
+    transform: translateX(-10px);
+}

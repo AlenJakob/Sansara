@@ -7,29 +7,20 @@
 /* Unpack Title & Header */
 
 .unpack__header-title {
-    font-size: 60px;
+    font-size: var(--font-size-2xl);
     letter-spacing: 20px;
     color: var(--color-primary-dark);
     position: relative;
 }
 
-.unpack__header-title:after {
-    letter-spacing: 0px;
-    color: var(--color-primary);
-    font-size: var(--font-size-lg);
-    content: "02";
-    position: absolute;
-    top:12px;
-    right: 220px;
-    font-weight: var(--font__weight-md);
-}
-
 .unpack__header-content {
-    margin:2em auto;
-    max-width: 640px;
+    margin: 2em auto;
+    max-width: 540px;
+    font-size: var(--font-size-md);
     color: var(--color-primary);
     text-transform: uppercase;
     letter-spacing: 2px;
+    line-height: 1.6em;
 }
 
 .advantage-section {
@@ -40,16 +31,97 @@
 }
 
 .advantage-section .advantage__item {
+    padding-left: 5em;
     display: flex;
-    min-width: 1024px;
-    margin: 4em 0;
+    min-width: 980px;
+    margin-bottom: 4em;
+}
+
+.advantage-section .advantage__item:nth-child(2) {
+    margin-bottom: 0em;
+}
+
+.advantage-section .advantage__item:nth-child(3) {
+    padding-left: 14em;
 }
 
 .advantage__left {
     flex-direction: row-reverse;
 }
 
+.advantage__content-hedaer {
+    letter-spacing: 3px;
+}
+
 .advantage__content {
-    max-width: 250px;
+    letter-spacing: 1px;
+    padding-left: 2em;
+    max-width: 305px;
     text-align: left;
+}
+
+.advantage__content-text {
+    font-family: var(--secondary-font-sofia);
+    color: var(--color-primary);
+    font-size: var(--font-size-sm);
+    line-height: 1.6em;
+    position: relative;
+    padding: 1em 0;
+}
+
+.advantage__content-text:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 46px;
+    height: 1px;
+    background: var(--color-primary-dark);
+}
+
+/* Placing Items of Advantage */
+
+.item-first {
+    justify-content: flex-end;
+}
+
+.item-second {
+    justify-content: flex-end;
+}
+
+.item-third {
+    justify-content: flex-end;
+}
+
+.item-fourth {
+    justify-content: flex-start;
+}
+
+.item-fifth {
+    justify-content: flex-end;
+}
+
+.item-sixth {}
+
+/* Images in Advantage Section */
+
+.image-first {
+    transform: translate(-20px, -40px);
+}
+
+.image-second {
+    transform: translate(20px, -100px);
+}
+
+.image-third {
+    transform: translateY(-55px);
+}
+
+.image-fourth {}
+
+.image-fifth {
+    transform: translateY(-60px);
+}
+
+.image-sixth {
+    transform: translate(50px, 80px);
 }
