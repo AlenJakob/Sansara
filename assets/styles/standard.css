@@ -1,4 +1,6 @@
-body, html, ul {
+body,
+html,
+ul {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -20,7 +22,11 @@ ul li {
   width: 33.33%;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   margin: 0;
   /*  padding: 0; */
   text-transform: uppercase;
@@ -64,7 +70,7 @@ h1, h2, h3, h4, h5 {
 .title__primary {
   word-spacing: 2px;
   letter-spacing: 8px;
-  margin: 10px 0 .6em 0!important
+  margin: 10px 0 0.6em 0 !important;
 }
 
 .body__hero-wrapper {
@@ -135,7 +141,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .body__hero-wrapper:hover .body__hero-scroll {
-  transition: .4s;
+  transition: 0.4s;
   height: 60px;
 }
 
