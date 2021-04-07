@@ -47,9 +47,10 @@
   .advantage-section .advantage__item:nth-child(2) {
     transform: translateY(-40px);
   }
-  .advantage-section .advantage__item:nth-child(3) {
+.advantage__item:nth-child(3) {
     padding-left: 4em;
   }
+
   .image-first,
   .image-second,
   .image-third,
