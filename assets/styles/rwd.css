@@ -1,120 +1,148 @@
-@media screen and (max-width: 960px) {
-  .body__hero-box {
-    min-width: 622px;
-    min-height: 510px;
-    background-position: 32px center;
-    background-size: cover;
-  }
-  .title__scroll {
-    padding-top: 6em;
-  }
-  /* SUMMARY Section */
-  .body__summary {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .summary-content {
-    padding-top: 14em;
-  }
-  .body__section-contact {
-    position: absolute;
-    width: 500px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  .person-sub {
-    margin: 1em 0;
-  }
-  .body__summary-box {
-    margin-top: 14em;
-  }
-  .unpack__header-title:after {
-    right: 130px;
-  }
-  .advantage-section .advantage__item {
-    margin: 4em 0;
-    min-width: 500px !important;
-    flex-direction: row-reverse;
-    align-items: center;
-    transform: translate(0);
-  }
-  .advantage-section .advantage__item:nth-child(4) {
-    margin: 1em;
-    transform: translateY(40px);
-  }
-  .advantage-section .advantage__item:nth-child(2) {
-    transform: translateY(-40px);
-  }
-  .advantage__item:nth-child(3) {
-    padding-left: 4em;
-  }
-
-  .image-first,
-  .image-second,
-  .image-third,
-  .image-fourth,
-  .image-fifth,
-  .image-sixth {
-    width: 160px;
-    max-width: 220px;
-    transform: translate(0);
-  }
-  .advantage__content .image-third {
-    width: 110px !important;
-  }
-  .image-fourth {
-    transform: translateY(-30px) !important;
-  }
-  .advantage-section {
-    margin: 4em 0 0 0;
-  }
-  .footer__menu {
-    flex-direction: column;
-  }
-  .footer__menu .menu-item {
-    margin: 0.5em 0;
-  }
-  .sansara__footer {
-    flex-direction: column;
-  }
-  .footer__social,
-  .footer__logo-weston {
-    margin: 2em 0;
-  }
-  .halfball {
-    display: none;
-  }
+@media screen and (max-width: 1024px) {
+    .body__hero-box {
+        min-width: 622px;
+        min-height: 510px;
+        background-position: 32px center;
+        background-size: cover;
+    }
+    .title__scroll {
+        padding-top: 6em;
+    }
+    /* SUMMARY Section */
+    .body__summary {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .summary-content {
+        padding-top: 14em;
+    }
+    .body__section-contact {
+        position: absolute;
+        width: 500px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .person-sub {
+        margin: 1em 0;
+    }
+    .body__summary-box {
+        margin-top: 14em;
+    }
+    .unpack__header-title:after {
+        right: 130px;
+    }
+    .advantage-section .advantage__item {
+        margin: 4em 0;
+        min-width: 500px !important;
+        flex-direction: row-reverse;
+        align-items: center;
+        transform: translate(0);
+    }
+    /* .advantage-section .advantage__item:nth-child(4) {
+        
+        transform: translateY(40px);
+    }
+    .advantage-section .advantage__item:nth-child(2) {
+        transform: translateY(-40px);
+    } */
+    .advantage__item:nth-child(3) {
+        padding-left: 4em;
+    }
+    .image-first {
+        transform: scale(1.4) translate(-18px)!important;
+    }
+    .image-second {
+        transform: scale(.8) translate(-18px)!important;
+    }
+    .image-third {
+        transform: scale(.8) translate(-18px)!important;
+    }
+    .image-first, .image-second, .image-third, .image-fourth, .image-fifth, .image-sixth {
+        width: 160px;
+        max-width: 220px;
+        transform: translate(0);
+    }
+    .advantage__content .image-third {
+        width: 110px !important;
+    }
+    .image-fourth {
+        transform: translateY(-30px) !important;
+    }
+    .advantage-section {
+        margin: 4em 0 0 0;
+    }
+    .footer__menu {
+        flex-direction: column;
+    }
+    .footer__menu .menu-item {
+        margin: 0.5em 0;
+    }
+    .sansara__footer {
+        flex-direction: column;
+    }
+    .footer__social, .footer__logo-weston {
+        margin: 2em 0;
+    }
+    .halfball {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 640px) {
-  .body__hero-box {
-    min-width: 330px;
-    min-height: 275px;
-    background-position: 17px center;
-    background-size: cover;
-  }
-  .title__scroll {
-    padding-top: 2.4em!important;
+    .advantage-section .advantage__item {
+        transform: translate(0)!important;
+        margin: 2em!important;
+    }
+    .body__hero-box {
+        min-width: 330px;
+        min-height: 275px;
+        background-position: 17px center;
+        background-size: cover;
+    }
+    .title__scroll {
+        padding-top: 2.4em!important;
+    }
+    .body__hero-scroll {
+        height: 60px;
+        top: 80px;
+    }
+    .title__primary {
+        font-size: var(--font-size-2xl);
+    }
+    .title__scroll {
+        padding-top: 10em;
+    }
+    .summary__main {
+        flex-direction: column;
+    }
+    .summary-text {
+        margin: 3em 0;
+    }
+    .summary-arrow {
+        top: 75%;
+    }
 }
-.body__hero-scroll{
-  height: 60px;
-  top:80px;
-}
-  .title__primary {
-    font-size: var(--font-size-2xl);
-  }
-  .title__scroll {
-    padding-top: 10em;
-  }
-  .summary__main {
-    flex-direction: column;
-  }
-  .summary-text {
-    margin: 3em 0;
-  }
-  .summary-arrow {
-    top: 75%;
-  }
+
+@media screen and (max-width: 480px) {
+    .body__summary-box {
+        margin-top: 19em;
+    }
+    .advantage-section .advantage__item {
+        flex-direction: column-reverse;
+        max-height: 100%!important;
+    }
+    .body__section-contact {
+        margin: 2em auto;
+    }
+    .advantage__content {
+        padding: 0;
+    }
+    .person-line {
+        display: none;
+    }
+    .person-sub {
+        flex-direction: column;
+    }
 }

@@ -12,6 +12,8 @@ const sectionOneObserver = new IntersectionObserver(function (
   sectionOneObserver
 ) {
   entries.forEach((entry) => {
+    
+  console.log(entry.intersectionRatio)
     if (!entry.isIntersecting) {
       header.classList.add("nav-scrolled");
       header.classList.remove("nav-scrolled-out");
@@ -52,3 +54,11 @@ faders.forEach((fader) => {
 sliders.forEach((slider) => {
   appearOnScroll.observe(slider);
 });
+
+
+// scroll to unpack button
+const scrollByButton = document.querySelector("#scrollBy");
+const headerUnpack = document.querySelector("#headerUnpack")
+scrollByButton.addEventListener("click",()=>{
+  headerUnpack.scrollIntoView();
+})
