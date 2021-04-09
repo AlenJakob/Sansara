@@ -65,7 +65,7 @@
   min-width: 769px;
   min-height: 636px;
   position: relative;
-  background: url("./assets/images/box-1.png");
+  background: url("../images/box-1.svg");
   background-repeat: no-repeat;
   background-position: 38px center;
   background-size: cover;
