@@ -142,15 +142,17 @@
 }
 
 @media screen and (max-width: 480px) {
-  .unpack__header {
-    margin-top: 5em;
-  }
   html,
   .unpack-section {
     width: 400px;
     margin: 0 auto;
   }
-
+  .unpack__header {
+    margin-top: 5em;
+  }
+  .unpack__header-content {
+    max-width: 245px;
+  }
   .advantage-section .advantage__item {
     flex-direction: column-reverse;
     max-height: 100% !important;
