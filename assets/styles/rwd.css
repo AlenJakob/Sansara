@@ -1,10 +1,14 @@
 @media screen and (max-width: 1024px) {
+  .body__section-content {
+    padding: 0;
+  }
   .body__hero-box {
     min-width: 622px;
     min-height: 510px;
     background-position: 32px center;
     background-size: cover;
   }
+
   .title__scroll {
     padding-top: 6em;
   }
@@ -18,17 +22,19 @@
   .summary-content {
     padding-top: 14em;
   }
-  .body__section-contact {
-    position: absolute;
-    width: 500px;
-    left: 50%;
-    transform: translateX(-50%);
+  .person-name {
+    margin: 1em 0;
+    text-align: center;
+  }
+  .person-name:after {
+    content: "";
   }
   .person-sub {
+    flex-direction: column;
     margin: 1em 0;
   }
-  .body__summary-box {
-    margin-top: 14em;
+  .person-line {
+    display: none;
   }
   .unpack__header-title:after {
     right: 130px;
@@ -144,9 +150,7 @@
     width: 400px;
     margin: 0 auto;
   }
-  .body__summary-box {
-    margin-top: 25em;
-  }
+
   .advantage-section .advantage__item {
     flex-direction: column-reverse;
     max-height: 100% !important;
