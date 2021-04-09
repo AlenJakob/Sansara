@@ -103,6 +103,7 @@ h5 {
   background: var(--background-gradient);
   color: var(--color-primary-dark);
   overflow-x: hidden;
+  width: 100%;
 }
 
 /* Button & Link Styles */
