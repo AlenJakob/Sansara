@@ -139,7 +139,7 @@
     .advantage__content {
         padding: 0;
     }
-    .person-position{
+    .person-position {
         margin-bottom: 1em;
     }
     .person-line {
@@ -147,5 +147,8 @@
     }
     .person-sub {
         flex-direction: column;
+    }
+    .person-name {
+        margin-bottom: 1em;
     }
 }
