@@ -12,8 +12,6 @@ const sectionOneObserver = new IntersectionObserver(function (
   sectionOneObserver
 ) {
   entries.forEach((entry) => {
-    
-  console.log(entry.intersectionRatio)
     if (!entry.isIntersecting) {
       header.classList.add("nav-scrolled");
       header.classList.remove("nav-scrolled-out");

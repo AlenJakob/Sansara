@@ -131,7 +131,7 @@
 
 @media screen and (max-width: 480px) {
     .body__summary-box {
-        margin-top: 19em;
+        margin-top: 25em;
     }
     .advantage-section .advantage__item {
         flex-direction: column-reverse;
