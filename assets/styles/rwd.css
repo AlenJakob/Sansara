@@ -33,9 +33,13 @@
     .unpack__header-title:after {
         right: 130px;
     }
+    .body__hero .box-shadow {
+        width: 100%;
+    }
     .advantage-section .advantage__item {
+        padding: 0 !important;
         margin: 4em 0;
-        min-width: 500px !important;
+        min-width: auto !important;
         flex-direction: row-reverse;
         align-items: center;
         transform: translate(0);
