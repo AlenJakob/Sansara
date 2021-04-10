@@ -3,11 +3,9 @@ Recruitment task
 
 ## Live: https://alenjakob.github.io/Sansara/
 
-## Stack:
-``
+1. Stack:
 
+- HTML5
+- CSS3
+- Vanilla JavaScript
 
-HTML5
-CSS3
-Vanilla JavaScript
-``
