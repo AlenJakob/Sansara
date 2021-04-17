@@ -33,53 +33,53 @@
     position: absolute;
 }
 
-.body__hero .nonregular-blur {
+.section__hero .nonregular-blur {
     top: -100px;
     left: 200px;
 }
 
-.body__hero .shine-ballblur-mini {
+.section__hero .shine-ballblur-mini {
     left: 195px;
     z-index: 15 !important;
 }
 
-.body__hero .regular-whiteball {
+.section__hero .regular-whiteball {
     bottom: 160px;
     left: -220px;
 }
 
-.body__hero .shine-ball-medium {
+.section__hero .shine-ball-medium {
     left: 38px;
     z-index: 15 !important;
 }
 
-.body__hero .header-smallball {
+.section__hero .header-smallball {
     top: 190px;
     right: 55px;
 }
 
-.body__hero .header-nonregular-blur {
+.section__hero .header-nonregular-blur {
     top: 215px;
     right: 150px;
 }
 
-.body__hero .shine-ball-mini {
+.section__hero .shine-ball-mini {
     bottom: 100px;
     left: 220px;
 }
 
-.body__hero .shine-ball-big {
+.section__hero .shine-ball-big {
     bottom: 100px;
     right: 20px;
     z-index: 1;
 }
 
-.body__hero .regular-whiteball-1 {
+.section__hero .regular-whiteball-1 {
     top: 80px;
     left: 140px;
 }
 
-.body__hero .box-shadow {
+.section__hero .box-shadow {
     position: absolute;
     bottom: -150px;
     left: 49.5%;
@@ -87,11 +87,11 @@
     z-index: -1 !important;
 }
 
-.body__hero-box {
+.section__hero-box {
     top: 70px;
 }
 
-.body__hero-box .header__image {
+.section__hero-box .header__image {
     z-index: 1;
 }
 

@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5 {
   font-size: var(--font-size-3xl);
 }
 
-.body__social-lang .link {
+.section__social-lang .link {
   font-weight: var(--font-weight-md);
   font-size: 1.2rem;
   letter-spacing: 1.8px;
@@ -72,11 +72,11 @@ h1, h2, h3, h4, h5 {
   margin: 10px 0 0.6em 0 !important;
 }
 
-.body__hero-wrapper {
+.section__hero-wrapper {
   position: relative;
 }
 
-.body__hero-scroll {
+.section__hero-scroll {
   position: absolute;
   left: 50%;
   bottom: -150px;
@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5 {
   background: var(--color-primary-dark);
 }
 
-.body__hero-title.title-lg {
+.section__hero-title.title-lg {
   margin-top: 5em;
   color: var(--color-primary-light);
   font-weight: var(--font-weight-sm);
@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5 {
   letter-spacing: 3px;
 }
 
-.body__background {
+.section__background {
   background: var(--background-gradient);
   color: var(--color-primary-dark);
   overflow-x: hidden;
@@ -120,18 +120,18 @@ h1, h2, h3, h4, h5 {
 
 /* Language Buttons */
 
-.body__social-lang {
+.section__social-lang {
   transition: 0.3s;
   margin: 2.5px;
 }
 
-.body__social-lang:hover {
+.section__social-lang:hover {
   opacity: 0.8;
 }
 
 /* Scroll Button */
 
-.body__hero-wrapper {
+.section__hero-wrapper {
   position: relative;
   display: grid;
   place-self: center;
@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5 {
   transition: 0.3s;
 }
 
-.body__hero-wrapper::after {
+.section__hero-wrapper::after {
   content: "";
   position: absolute;
   display: grid;
@@ -164,16 +164,16 @@ h1, h2, h3, h4, h5 {
   }
 }
 
-.body__hero-scroll {
+.section__hero-scroll {
   transition: 1s;
 }
 
-.body__hero-wrapper:hover .body__hero-scroll {
+.section__hero-wrapper:hover .section__hero-scroll {
   transition: 0.4s;
   height: 60px;
 }
 
-.body__hero-wrapper:hover {
+.section__hero-wrapper:hover {
   color: var(--color-content-primary);
 }
 

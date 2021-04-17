@@ -1,5 +1,5 @@
-const header = document.querySelector(".body__header");
-const sectionOne = document.querySelector(".body__hero");
+const header = document.querySelector(".section__header");
+const sectionOne = document.querySelector(".section__hero");
 
 const faders = document.querySelectorAll(".fade-in");
 const sliders = document.querySelectorAll(".slide-in");
@@ -56,9 +56,7 @@ sliders.forEach((slider) => {
 
 // scroll to unpack button
 const scrollByButton = document.getElementById("scrollBy");
-const headerUnpack = document.getElementById("headerUnpack")
-// scrollByButton.addEventListener("mouseenter", (e) => {
-
-//   headerUnpack.scrollIntoView();
-
-// })
+const headerUnpack = document.querySelector(".section__summary")
+scrollByButton.addEventListener("mouseenter", () => {
+  headerUnpack.scrollIntoView();
+})
