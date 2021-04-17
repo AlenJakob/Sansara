@@ -7,7 +7,7 @@
 /* Unpack Title & Header */
 
 .unpack__header-title {
-  font-size: var(--font-size-2xl);
+  font-size: var(--font-size-3xl);
   letter-spacing: 20px;
   color: var(--color-primary-dark);
   position: relative;
@@ -16,7 +16,7 @@
 .unpack__header-content {
   margin: 2em auto;
   max-width: 540px;
-  font-size: var(--font-size-md);
+  font-size: var(--font-size-xl);
   color: var(--color-primary);
   text-transform: uppercase;
   letter-spacing: 2px;

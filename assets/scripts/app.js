@@ -21,7 +21,7 @@ const sectionOneObserver = new IntersectionObserver(function (
     }
   });
 },
-sectionOneOptions);
+  sectionOneOptions);
 
 sectionOneObserver.observe(sectionOne);
 
@@ -43,7 +43,7 @@ const appearOnScroll = new IntersectionObserver(function (
     }
   });
 },
-appearOptions);
+  appearOptions);
 
 faders.forEach((fader) => {
   appearOnScroll.observe(fader);
@@ -57,6 +57,7 @@ sliders.forEach((slider) => {
 // scroll to unpack button
 const scrollByButton = document.querySelector("#scrollBy");
 const headerUnpack = document.querySelector("#headerUnpack")
-scrollByButton.addEventListener("click",()=>{
+scrollByButton.addEventListener("click", (e) => {
   headerUnpack.scrollIntoView();
+
 })

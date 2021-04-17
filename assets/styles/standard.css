@@ -1,11 +1,9 @@
-body,
-html,
-ul {
+body, html, ul {
   margin: 0;
   padding: 0;
 }
-body,
-html {
+
+body, html {
   overflow-x: hidden;
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -27,11 +25,7 @@ ul li {
   width: 33.33%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
+h1, h2, h3, h4, h5 {
   margin: 0;
   /*  padding: 0; */
   text-transform: uppercase;
@@ -108,7 +102,7 @@ h5 {
 
 /* Button & Link Styles */
 
-.button {
+.btn {
   transition: 0.3s;
   text-transform: uppercase;
   background: var(--background-none);
@@ -119,7 +113,7 @@ h5 {
   cursor: pointer;
 }
 
-.button:hover {
+.btn:hover {
   border: 2px solid var(--color-primary-dark);
   color: var(--color-primary-dark);
 }
@@ -138,8 +132,36 @@ h5 {
 /* Scroll Button */
 
 .body__hero-wrapper {
+  position: relative;
+  display: grid;
+  place-self: center;
   cursor: pointer;
   transition: 0.3s;
+}
+
+.body__hero-wrapper::after {
+  content: "";
+  position: absolute;
+  display: grid;
+  place-self: center;
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  animation: pulse-scroll 1.5s infinite ease-in-out;
+  animation-delay: 3s;
+}
+
+@keyframes pulse-scroll {
+  0% {
+    transform: scale(0.1);
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  50% {}
+  100% {
+    transform: scale(1.5);
+    background-color: transparent;
+  }
 }
 
 .body__hero-scroll {
