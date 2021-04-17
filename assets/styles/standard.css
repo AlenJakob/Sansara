@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5 {
   position: absolute;
   display: grid;
   place-self: center;
-  margin-top: 50px;
+  margin-top: 250px;
   width: 150px;
   height: 150px;
   border-radius: 50%;

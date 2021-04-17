@@ -6,10 +6,9 @@
     min-width: 622px;
     min-height: 510px;
     background-position: 32px center;
-    background-size: cover;
   }
-  .title__scroll{
-    margin-top:6em;
+  .title__scroll {
+    margin-top: 9em;
   }
   /* SUMMARY Section */
   .body__summary {
@@ -22,7 +21,7 @@
     padding-top: 14em;
   }
   .person-name {
-    margin: 1em 0;
+    margin: .5em 0;
     text-align: center;
   }
   .person-name:after {
@@ -49,7 +48,6 @@
     align-items: center;
     transform: translate(0);
   }
- 
   .advantage__item:nth-child(3) {
     padding-left: 4em;
   }
@@ -62,12 +60,7 @@
   .image-third {
     transform: scale(0.8) translate(-18px) !important;
   }
-  .image-first,
-  .image-second,
-  .image-third,
-  .image-fourth,
-  .image-fifth,
-  .image-sixth {
+  .image-first, .image-second, .image-third, .image-fourth, .image-fifth, .image-sixth {
     width: 160px;
     max-width: 220px;
     transform: translate(0);
@@ -90,8 +83,7 @@
   .sansara__footer {
     flex-direction: column;
   }
-  .footer__social,
-  .footer__logo-weston {
+  .footer__social, .footer__logo-weston {
     margin: 2em 0;
   }
   .halfball {
@@ -100,11 +92,16 @@
 }
 
 @media screen and (max-width: 640px) {
-  .body__logo-size {
-    width: 110.5px;
-    height: 74px;
+  .body__header {
+    margin-bottom: 5em;
   }
-  
+  .body__header .nonregular {
+    display: none;
+  }
+  .body__logo-size {
+    width: 164.5px;
+    height: 102px;
+  }
   .advantage-section .advantage__item {
     transform: translate(0) !important;
     margin: 2em !important;
@@ -112,11 +109,17 @@
   .body__hero-box {
     min-width: 415px;
     min-height: 355px;
-    background-position: 12px center;
+    background-position: 14px center;
     background-size: cover;
   }
+  .body__hero-box .header-nonregular-blur {
+    display: none;
+  }
+  .body__hero-header {
+    top: 7em;
+  }
   .title__scroll {
-    padding-top: 5em !important;
+    margin-top: 6em;
   }
   .body__hero-scroll {
     height: 60px;
@@ -124,9 +127,6 @@
   }
   .title__primary {
     font-size: var(--font-size-2xl);
-  }
-  .title__scroll {
-  
   }
   .summary__main {
     flex-direction: column;
@@ -140,8 +140,7 @@
 }
 
 @media screen and (max-width: 480px) {
-  html,
-  .unpack-section {
+  html, .unpack-section {
     width: 400px;
     margin: 0 auto;
   }

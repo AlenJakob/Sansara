@@ -55,9 +55,10 @@ sliders.forEach((slider) => {
 
 
 // scroll to unpack button
-const scrollByButton = document.querySelector("#scrollBy");
-const headerUnpack = document.querySelector("#headerUnpack")
-scrollByButton.addEventListener("click", (e) => {
-  headerUnpack.scrollIntoView();
+const scrollByButton = document.getElementById("scrollBy");
+const headerUnpack = document.getElementById("headerUnpack")
+// scrollByButton.addEventListener("mouseenter", (e) => {
 
-})
+//   headerUnpack.scrollIntoView();
+
+// })
