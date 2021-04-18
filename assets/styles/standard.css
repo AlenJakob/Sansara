@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
   color: var(--color-primary-light);
 }
 
-.section__hero-wrapper {
+.scroll-bar {
   position: relative;
 }
 
@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5 {
 
 /* Scroll Button */
 
-.section__hero-wrapper {
+.scroll-bar {
   position: relative;
   display: grid;
   place-self: center;
@@ -134,7 +134,7 @@ h1, h2, h3, h4, h5 {
   transition: 0.3s;
 }
 
-.section__hero-wrapper::after {
+.scroll-bar::after {
   content: "";
   position: absolute;
   display: grid;
@@ -164,13 +164,13 @@ h1, h2, h3, h4, h5 {
   transition: 1s;
 }
 
-.section__hero-wrapper:hover .hero-scroll
+.scroll-bar:hover .hero-scroll
  {
   transition: 0.4s;
   height: 60px;
 }
 
-.section__hero-wrapper:hover {
+.scroll-bar:hover {
   color: var(--color-content-primary);
 }
 
