@@ -75,7 +75,6 @@
   margin: 20em auto 2em auto;
 }
 
-
 .section-summary {
   position: relative;
 }
@@ -91,7 +90,7 @@
 }
 
 .summary, .content {
-  margin:2em 0;
+  margin: 2em 0;
   width: 50%;
   padding-left: 1em;
   position: relative;
@@ -102,7 +101,7 @@
 }
 
 .shineball-img {
-  transform: translate(50px,45px);
+  transform: translate(50px, 45px);
 }
 
 .summary .cloud-img, .summary .logo-img {
@@ -176,7 +175,6 @@
 }
 
 .person-position {
-  
   font-size: var(--font-size-lg);
   color: var(--color-content-primary);
   letter-spacing: 1.3px;
@@ -236,6 +234,14 @@
   background: rgba(255, 242, 221, 0.62);
   padding: 2em;
   margin: 2rem;
+}
+
+.summary-box {
+  margin:0 auto;
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .summary-box .cloud-2 {
