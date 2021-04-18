@@ -18,7 +18,6 @@
   opacity: 1;
 }
 
-
 .section__social-lang {
   color: var(--font-color-basic);
 }
@@ -53,7 +52,7 @@
 
 /*  SECTION BODY BOX  */
 
-.section__hero-box {
+.hero-box {
   min-width: 769px;
   min-height: 636px;
   position: relative;
@@ -76,31 +75,39 @@
   margin: 20em auto 2em auto;
 }
 
-.column {
-  width: 50%;
-  padding-left: 1em;
-}
 
-.site__section-logo {
+.section-summary {
   position: relative;
 }
 
-.site__section-logo .cloud__img, .site__section-logo .logo__img {
+.cloud-img, .logo-img {
   left: 50%;
 }
 
-.site__section-logo .shineball__img {
-  top: 115px;
-  left: 135px;
+.section-summary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.site__section-logo .shineballmini__img {
-  top: -8px;
-  right: 110px;
+.summary, .content {
+  margin:2em 0;
+  width: 50%;
+  padding-left: 1em;
+  position: relative;
 }
 
-.site__section-logo>* {
-  transform: translate(-50%,-60px);
+.summary .shineballmini-img {
+  transform: translate(200px);
+}
+
+.shineball-img {
+  transform: translate(50px,45px);
+}
+
+.summary .cloud-img, .summary .logo-img {
+  left: 50%;
+  transform: translate(-50%, -60px);
   position: absolute;
 }
 
@@ -111,7 +118,6 @@
 }
 
 .summary-content {
-  position: relative;
   font-weight: var(--font-weight-sm);
   font-size: var(--font-size-xl);
   color: var(--color-content-primary);
@@ -140,13 +146,13 @@
   position: relative;
 }
 
-.site__section-contact {
+.section-contact {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
-.site__section-contact .contact__person {
+.section-contact .contact__person {
   margin: 0.1em 0;
   letter-spacing: 1px;
 }
@@ -170,7 +176,7 @@
 }
 
 .person-position {
-  margin-bottom: -10px;
+  
   font-size: var(--font-size-lg);
   color: var(--color-content-primary);
   letter-spacing: 1.3px;
@@ -217,7 +223,7 @@
 
 /* Body Summary content */
 
-.section-summary-box {
+.section-summary {
   position: relative;
   margin: 0 auto;
   max-width: 860px;
@@ -232,7 +238,7 @@
   margin: 2rem;
 }
 
-.section-summary-box .cloud-2 {
+.summary-box .cloud-2 {
   position: absolute;
   bottom: 0;
   right: 180px;
@@ -264,6 +270,7 @@
 /* Summary Option Mission & Vision */
 
 .summary-info {
+  position: relative;
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-left: 2em;
