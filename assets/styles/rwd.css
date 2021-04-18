@@ -67,10 +67,9 @@
   .image-sixth {
     transform: translate( 0, -50px);
   }
-  .image-third,.image-second {
+  .image-third, .image-second {
     transform: translateY(-55px);
   }
-  
   .image-fourth {
     transform: translateY(-50px) !important;
   }
@@ -148,7 +147,6 @@
 
 @media screen and (max-width: 480px) {
   html, .unpack-section {
-    width: 400px;
     margin: 0 auto;
   }
   .unpack__header {
@@ -169,9 +167,16 @@
   .section-contact {
     margin: 2em auto;
   }
-  /* .site__content {
-    margin: 5em;
-  } */
+  .column {
+    width: calc(100% - 4em);
+  }
+  .person-name {
+    font-size: var(--font-size-xl)!important;
+  }
+  .summary-text {
+    padding-right: 1em;
+    margin-bottom: 5em;
+  }
   .person-line {
     display: none;
   }
