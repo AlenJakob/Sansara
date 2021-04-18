@@ -56,16 +56,15 @@ sliders.forEach((slider) => {
 const scrollByButton = document.getElementById("scrollBy");
 const headerUnpack = document.querySelector(".section__summary")
 let isOnDiv = false;
-scrollByButton.addEventListener("mouseenter", function () {
-  isOnDiv = true;
-  if (isOnDiv === true) {
+scrollByButton.addEventListener("mouseenter", function (e) {
+  console.log()
+  const elId = e.target.getAttribute("id");
+  if (elId === "scrollBy") {
 
     headerUnpack.scrollIntoView(true);
-  } else {
-    return
   }
-},false);
-scrollByButton.addEventListener("mouseout", function () { isOnDiv = false; });
+});
+
 
 // // scroll to unpack button
 
