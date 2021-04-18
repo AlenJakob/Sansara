@@ -23,14 +23,14 @@
   line-height: 1.6em;
 }
 
-.advantage-section {
+.site__section {
   margin: 10em auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.advantage-section .site__item {
+.site__section .site__item {
   padding-left: 5em;
   display: flex;
   align-items: center;
@@ -39,7 +39,7 @@
   margin-bottom: 4em;
 }
 
-.advantage-section .site__item:nth-child(2), .advantage-section .site__item:last-child {
+.site__section .site__item:nth-child(2), .site__section .site__item:last-child {
   margin-bottom: 0em;
 }
 
@@ -47,7 +47,7 @@
   padding-left: 14em;
 }
 
-.site__left {
+.site-left {
   flex-direction: row-reverse;
 }
 
@@ -55,7 +55,7 @@
   letter-spacing: 3px;
 }
 
-.site__content {
+.site__content-container {
   letter-spacing: 1px;
   padding-left: 2em;
   max-width: 305px;

@@ -54,15 +54,11 @@ sliders.forEach((slider) => {
 });
 // DOM ELEMENTS
 const scrollByButton = document.getElementById("scrollBy");
-const headerUnpack = document.querySelector(".section__summary")
-let isOnDiv = false;
-scrollByButton.addEventListener("mouseenter", function (e) {
-  console.log()
-  const elId = e.target.getAttribute("id");
-  if (elId === "scrollBy") {
+const headerUnpack = document.querySelector(".section-summary")
 
-    headerUnpack.scrollIntoView(true);
-  }
+scrollByButton.addEventListener("mouseenter", function (e) {
+  // headerUnpack.scrollIntoView(true);
+
 });
 
 

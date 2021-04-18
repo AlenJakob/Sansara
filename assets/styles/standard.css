@@ -85,15 +85,16 @@ h1, h2, h3, h4, h5 {
   background: var(--color-primary-dark);
 }
 
-.section__hero-title.title-lg {
-  margin-top: 5em;
+.title-main {
+  margin-top: 7em;
   color: var(--color-primary-light);
   font-weight: var(--font-weight-sm);
   font-size: var(--font-size-xl);
   letter-spacing: 3px;
 }
 
-.section__background {
+.site__section-background {
+ 
   background: var(--background-gradient);
   color: var(--color-primary-dark);
   overflow-x: hidden;
