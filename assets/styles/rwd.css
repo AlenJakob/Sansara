@@ -1,7 +1,4 @@
 @media screen and (max-width: 1024px) {
-  .site__section .section-summary:first-child {
-    margin-bottom: 8em!important;
-  }
   .section-content {
     padding: 0;
   }
@@ -57,7 +54,7 @@
   }
   .site__section .site__item {
     padding: 0 !important;
-    min-width: 1024px;
+    min-width: 768px;
     flex-direction: row-reverse;
     justify-content: center;
   }
@@ -70,15 +67,9 @@
   .image-sixth {
     transform: translate( 0, -50px);
   }
-  .image-third, .image-second {
-    transform: translateY(-55px);
-  }
   .image-fourth {
-    transform: translateY(-50px) !important;
+    transform: translateY(-50px);
   }
-  /* .site__section {
-    margin: 4em 0 0 0;
-  } */
   .footer__menu {
     flex-direction: column;
   }
@@ -86,7 +77,6 @@
     margin: 0.5em 0;
   }
   .footer__sansara {
-    margin-top: 5em;
     flex-direction: column;
   }
   .footer__social, .footer__logo-weston {
@@ -97,10 +87,18 @@
   }
 }
 
-@media screen and (max-width: 640px) {
-  .site__section .site__item {
-    max-height: 425px;
+@media screen and (max-width: 768px) {
+  .section-benefits {
+    margin: unset;
   }
+  .site__section .site__item {
+    flex-direction: column-reverse;
+    max-height: 425px;
+    width: 640px;
+  }
+}
+
+@media screen and (max-width: 640px) {
   .section__header {
     margin-bottom: 5em;
   }
@@ -110,10 +108,6 @@
   .section__logo-size {
     width: 164.5px;
     height: 102px;
-  }
-  .site__section .site__item {
-    transform: translate(0) !important;
-    margin: 4em 0 !important;
   }
   .section__hero-box {
     min-width: 415px;
@@ -166,9 +160,6 @@
   .unpack__header-content {
     max-width: 245px;
   }
-  .site__section {
-    margin: 15em auto;
-  }
   .site__section .site__item {
     flex-direction: column-reverse;
   }
@@ -220,15 +211,18 @@
     font-size: 30px;
   }
   .title__scroll {
-    margin-top: 6em;
+    margin-top: 3em;
   }
   .section__hero-scroll {
     width: 1px;
     height: 45px;
-    top: 190px;
+    top: 110px;
+  }
+  .cloud__img, .logo__img {
+    transform: translate(-50%, -60px) scale(.8);
   }
   .section__hero-wrapper::after {
-    margin-top: 145px;
+    margin-top: 70px;
   }
   .section__hero-title {
     font-size: var(--font-size-xl);
@@ -237,6 +231,12 @@
     bottom: -60px
   }
   .header-image {
-    transform: scale(.5);
+    transform: scale(.7);
+  }
+  .shine-ball-medium {
+    left: -50px!important;
+  }
+  .shine-ball-big {
+    right: 0;
   }
 }

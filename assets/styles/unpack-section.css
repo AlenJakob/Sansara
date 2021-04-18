@@ -39,9 +39,6 @@
   margin-bottom: 4em;
 }
 
-.site__section .site__item:nth-child(2), .site__section .site__item:last-child {
-  margin-bottom: 0em;
-}
 
 .site__item:nth-child(3) {
   padding-left: 14em;
@@ -103,8 +100,6 @@
 }
 
 /* Images in Advantage Section */
-
-
 
 .image-fifth {
   transform: translateY(-60px);
