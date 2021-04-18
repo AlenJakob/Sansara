@@ -113,7 +113,7 @@
 .summary-content {
   position: relative;
   font-weight: var(--font-weight-sm);
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-xl);
   color: var(--color-content-primary);
   line-height: var(--font-lineHeigh-md);
   text-shadow: 1px 1px 1px rgba(156, 159, 152, .2);
@@ -253,7 +253,7 @@
   margin: 0;
   font-family: var(--secondary-font-sofia);
   border-right: 1px solid var(--color-primary-dark);
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-lg);
   font-weight: var(--font-weight-md);
   color: rgba(69, 82, 82, 0.49);
   opacity: 0.62;

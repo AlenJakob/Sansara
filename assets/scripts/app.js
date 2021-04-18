@@ -57,12 +57,6 @@ const scrollByButton = document.getElementById("scrollBy");
 const headerUnpack = document.querySelector(".section-summary")
 
 scrollByButton.addEventListener("mouseenter", function (e) {
-  // headerUnpack.scrollIntoView(true);
-
+  headerUnpack.scrollIntoView(true);
 });
 
-
-// // scroll to unpack button
-
-// scrollByButton.addEventListener("mouseenter", () => {
-// })
