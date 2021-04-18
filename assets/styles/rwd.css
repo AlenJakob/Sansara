@@ -60,11 +60,8 @@
   }
   .image-third {
     margin-top: 50px;
-    transform: scale(1.2) translate(-18px, -50px) !important;
   }
-  .image-fourth {
-    margin-top: 30px;
-  }
+  
   .image-sixth {
     transform: translate(0, 0);
   }
@@ -84,6 +81,7 @@
     margin: 0.5em 0;
   }
   .sansara__footer {
+    margin-top: 5em;
     flex-direction: column;
   }
   .footer__social, .footer__logo-weston {
@@ -107,7 +105,7 @@
   }
   .advantage-section .advantage__item {
     transform: translate(0) !important;
-    margin: 3em !important;
+    margin: 4em 0 !important;
   }
   .section__hero-box {
     min-width: 415px;
@@ -155,14 +153,20 @@
   }
   .advantage-section .advantage__item {
     flex-direction: column-reverse;
-    max-height: 100% !important;
+  }
+  .unpack__img {
+    min-height: 265px;
+    transform: translateX(-50px);
+  }
+  .item-sixth {
+    margin-bottom: 100px;
   }
   .section-contact {
     margin: 2em auto;
   }
-  .advantage__content {
-    padding: 0;
-  }
+  /* .advantage__content {
+    margin: 5em;
+  } */
   .person-line {
     display: none;
   }

@@ -52,11 +52,22 @@ faders.forEach((fader) => {
 sliders.forEach((slider) => {
   appearOnScroll.observe(slider);
 });
-
-
-// scroll to unpack button
+// DOM ELEMENTS
 const scrollByButton = document.getElementById("scrollBy");
 const headerUnpack = document.querySelector(".section__summary")
-scrollByButton.addEventListener("mouseenter", () => {
-  headerUnpack.scrollIntoView();
-})
+let isOnDiv = false;
+scrollByButton.addEventListener("mouseenter", function () {
+  isOnDiv = true;
+  if (isOnDiv === true) {
+
+    headerUnpack.scrollIntoView(true);
+  } else {
+    return
+  }
+},false);
+scrollByButton.addEventListener("mouseout", function () { isOnDiv = false; });
+
+// // scroll to unpack button
+
+// scrollByButton.addEventListener("mouseenter", () => {
+// })
