@@ -8,5 +8,5 @@ Recruitment task
 - CSS3
 - Vanilla JavaScript
 
-Format: ![Alt Text](../assets/images/alenjakob.github.io_Sansara_.png)
+Format: ![Alt Text](./assets/images/alenjakob.github.io_Sansara_.png)
 /assets/images/alenjakob.github.io_Sansara_.png
