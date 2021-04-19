@@ -21,7 +21,7 @@ ul li {
   list-style: none;
 }
 
-.section__logo, .section__social, .section__languages {
+.section__logo, .social-icons, .section__languages {
   width: 33.33%;
 }
 

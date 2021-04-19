@@ -38,15 +38,13 @@ const appearOnScroll = new IntersectionObserver(function (
 ) {
   entries.forEach((entry) => {
     if (!entry.isIntersecting) {
-      // entry.target.classList.remove("appear");
       return;
     } else {
       entry.target.classList.add("appear");
-      appearOnScroll.unobserve(entry.target);
     }
   });
 },
-  appearOptions);
+  appearOptions); 
 
 faders.forEach((fader) => {
   appearOnScroll.observe(fader);

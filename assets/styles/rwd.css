@@ -1,7 +1,4 @@
 @media screen and (max-width: 1024px) {
-  .summary .cloud-img, .summary .logo-img{
-    left: 50%;
-  }
   .section-content {
     padding: 0;
   }
@@ -25,6 +22,9 @@
   }
   .summary-content {
     padding-top: 4em;
+  }
+  .summary .cloud-img, .summary .logo-img {
+    left: 50%;
   }
   .person-name {
     margin: .5em 0;
@@ -73,16 +73,16 @@
   .image-fourth {
     transform: translateY(-50px);
   }
-  .footer__menu {
+  .menu {
     flex-direction: column;
   }
-  .footer__menu .menu-item {
+  .menu .menu-item {
     margin: 0.5em 0;
   }
-  .footer__sansara {
+  .footer {
     flex-direction: column;
   }
-  .footer__social, .footer__logo-weston {
+  .social, .logo-weston {
     margin: 2em 0;
   }
   .halfball {
@@ -195,13 +195,9 @@
   .person-line {
     display: none;
   }
-  .section__social {
-    padding: 27px;
+  .social-icons {
     display: flex;
-    flex-direction: column;
-    position: absolute!important;
-    right: 0;
-    bottom: 0;
+    transform: translateX(3px);
     width: auto;
     z-index: 110;
   }

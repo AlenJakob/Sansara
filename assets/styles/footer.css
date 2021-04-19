@@ -1,4 +1,4 @@
-.footer__sansara {
+.footer {
     box-sizing: border-box;
     background: #fff;
     width: 100%;
@@ -8,17 +8,17 @@
     padding: 27px;
 }
 
-.footer__social {
+.social {
     display: flex;
     align-items: center;
     flex-grow: 1;
 }
 
-.footer__social-icons {
+.social-icons {
     margin-left: 60px;
 }
 
-.footer__menu {
+.menu {
     display: flex;
     justify-content: center;
     flex-grow: 1;
@@ -27,47 +27,47 @@
     letter-spacing: 1.5px;
 }
 
-.footer__menu .menu-item {
+.menu .menu-item {
     transition: 0.3s;
     font-weight: 600;
     text-align: center;
     margin-right: 65px;
 }
 
-.footer__menu .menu-item:hover {
+.menu .menu-item:hover {
     transform: scale(1.2);
 }
 
-.footer__menu .menu-item:last-child {
+.menu .menu-item:last-child {
     margin-right: 0;
 }
 
-.footer__logo-weston {
+.logo-weston {
     flex-grow: 1;
     text-align: end;
 }
 
-.footer_link {
+.link {
     pointer-events: none;
 }
 
-.footer__logo-weston, .footer__logo {
+.logo-weston, .logo {
     transition: 0.3s;
 }
 
-.footer__logo:hover {
+.logo:hover {
     transform: translateX(10px);
 }
 
-.footer__logo-weston:hover {
+.logo-weston:hover {
     transform: translateX(-10px);
 }
 
-.section__social-icon {
+.social-icon {
     position: relative;
 }
 
-.section__social-icon::after {
+.social-icon::after {
     content: "";
     left: 0;
     width: 25px;
@@ -75,7 +75,7 @@
     position: absolute;
 }
 
-.section__social-icon:hover {
+.social-icon:hover {
     cursor: pointer;
     opacity: 0.8;
 }
