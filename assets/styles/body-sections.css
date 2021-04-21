@@ -57,6 +57,7 @@
   min-height: 636px;
   position: relative;
   background: url("../images/box-1.png");
+  background: url("../images/box.png");
   background-repeat: no-repeat;
   background-position: 38px center;
   background-size: cover;
