@@ -13,7 +13,7 @@ body, html {
   -moz-osx-font-smoothing: grayscale;
   text-decoration: none;
   color: var(--font-color-primary);
-  font-family: var(--primary-font-webpro);
+  font-family: "ff-good-headline-web-pro-ext", "Arial";
 }
 
 ul li {
@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5 {
 .btn {
   transition: 0.3s;
   text-transform: uppercase;
-  background: var(--background-none);
+  background: transparent;
   border: 2px solid #fff;
   color: #fff;
   padding: 0.4rem 1rem;
@@ -108,8 +108,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .btn:hover {
-  border: 2px solid var(--color-primary-dark);
-  color: var(--color-primary-dark);
+  border: 2px solid #333d3c;
+  color: #333d3c;
 }
 
 /* Language Buttons */
@@ -183,6 +183,6 @@ h1, h2, h3, h4, h5 {
   max-height: 300px;
 }
 
-.section-benefits .revert {
+.list-benefits .revert {
   flex-direction: row;
 }

@@ -1,6 +1,16 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .unpack-section {
   margin: 10em auto;
   text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -25,14 +35,26 @@
 
 .site__section {
   margin: 10em auto;
+  -ms-flex-pack: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
-.site__section .site__item {
+.site__section .list-item {
   padding-left: 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 980px;
   max-height: 285px;
@@ -43,11 +65,14 @@
   margin-bottom: 0em;
 }
 
-.site__item:nth-child(3) {
+.list-item:nth-child(3) {
   padding-left: 14em;
 }
 
 .site-left {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
 }
 
@@ -82,11 +107,9 @@
 
 /* Placing Items of Advantage */
 
-.item-first,
-.item-second,
-.item-third,
-.item-fourth,
-.item-fifth {
+.item-first, .item-second, .item-third, .item-fourth, .item-fifth {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
   justify-content: flex-end;
 }
 
