@@ -82,34 +82,12 @@
 
 /* Placing Items of Advantage */
 
-.item-first {
-  justify-content: flex-end;
-}
-
-.item-second {
-  justify-content: flex-end;
-}
-
-.item-third {
-  justify-content: flex-end;
-}
-
-.item-fourth {
-  justify-content: flex-start;
-}
-
+.item-first,
+.item-second,
+.item-third,
+.item-fourth,
 .item-fifth {
   justify-content: flex-end;
 }
 
 /* Images in Advantage Section */
-
-
-
-.image-fifth {
-  transform: translateY(-60px);
-}
-
-.image-sixth {
-  transform: translate(50px, 80px);
-}

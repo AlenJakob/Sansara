@@ -172,9 +172,7 @@
   .site__section .site__item {
     flex-direction: column-reverse;
   }
-  .unpack__img {
-    min-height: 265px;
-  }
+
   .item-sixth {
     margin-bottom: 100px;
   }

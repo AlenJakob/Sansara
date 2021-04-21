@@ -181,3 +181,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /*  */
+.unpack__img {
+  min-height: 265px;
+  max-height: 340px;
+}
