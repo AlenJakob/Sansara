@@ -1,9 +1,12 @@
-body, html, ul {
+body,
+html,
+ul {
   margin: 0;
   padding: 0;
 }
 
-body, html {
+body,
+html {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -20,11 +23,17 @@ ul li {
   list-style: none;
 }
 
-.section__logo, .social-icons, .section__languages {
+.section__logo,
+.social-icons,
+.section__languages {
   width: 33.33%;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   margin: 0;
   /*  padding: 0; */
   text-transform: uppercase;
@@ -69,8 +78,7 @@ h1, h2, h3, h4, h5 {
   position: relative;
 }
 
-.hero-scroll
- {
+.hero-scroll {
   position: absolute;
   left: 50%;
   bottom: -150px;
@@ -89,7 +97,11 @@ h1, h2, h3, h4, h5 {
 
 .section-background {
   background: var(--background-gradient);
-  background:linear-gradient( 90deg, rgba(202, 242, 241, 1) 24%, rgba(243, 221, 195, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(202, 242, 241, 1) 24%,
+    rgba(243, 221, 195, 1) 100%
+  );
   color: var(--color-primary-dark);
   overflow-x: hidden;
   width: 100%;
@@ -152,20 +164,19 @@ h1, h2, h3, h4, h5 {
     transform: scale(0.1);
     background-color: rgba(0, 0, 0, 0.1);
   }
-  50% {}
+  50% {
+  }
   100% {
     transform: scale(1.5);
     background-color: transparent;
   }
 }
 
-.hero-scroll
- {
+.hero-scroll {
   transition: 1s;
 }
 
-.scroll-bar:hover .hero-scroll
- {
+.scroll-bar:hover .hero-scroll {
   transition: 0.4s;
   height: 60px;
 }
