@@ -79,12 +79,16 @@ h5 {
 }
 
 .hero-scroll {
+  margin:0 auto!important;
   position: absolute;
   left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
   bottom: -150px;
   width: 2px;
   height: 120px;
-  background: var(--color-primary-dark);
+  background: black;
 }
 
 .title-main {
