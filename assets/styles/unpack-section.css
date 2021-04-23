@@ -19,7 +19,7 @@
 .unpack__header-content {
   margin: 2em auto;
   max-width: 540px;
-  font-size: 18px;
+  font-size: 24px;
   color: #868782;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -85,9 +85,9 @@
 }
 
 .site__content-text {
-  font-family: var(--secondary-font-sofia);
-  color: var(--color-primary);
-  font-size: var(--font-size-sm);
+  font-family: "sofia-pro";
+  color: #868782;
+  font-size: 18px;
   line-height: 1.6em;
   position: relative;
   padding: 1em 0;
@@ -111,3 +111,8 @@
 }
 
 /* Images in Advantage Section */
+
+.list-item img {
+  width: 357px;
+  height: 218px;
+}

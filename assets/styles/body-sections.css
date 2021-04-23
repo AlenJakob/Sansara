@@ -23,6 +23,12 @@
   align-items: center;
 }
 
+.section-languages .social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .social-icon {
   min-width: 48px!important;
   min-height: 48px!important;
@@ -335,7 +341,7 @@
   border-right: 1px solid #333d3c;
   font-size: 18px;
   font-weight: 500;
-  color: rgba(69, 82, 82, 0.49);
+  color: #333d3c;
   opacity: 0.62;
   letter-spacing: .5px;
   line-height: 1.3em;
