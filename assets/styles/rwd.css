@@ -1,9 +1,4 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
+
 
 @media screen and (max-width: 1024px) {
  
@@ -246,23 +241,20 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-transform: translateX(3px);
-        -ms-transform: translateX(3px);
-            transform: translateX(3px);
     width: auto;
     z-index: 110;
   }
-  .section__social-lang {
-    margin: 3.5px;
+ 
+  .float-icons {
+    flex-direction: column;
+    position: fixed;
+    right: 27px;
+    top:100px;
   }
-  .section__languages {
-    position: absolute;
-    top: 27px;
-    right: 0;
-    -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-            transform: translateX(-50%);
-    width: auto;
+  .social-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .headerimage:nth-child(3n+2) {
     z-index: -1;

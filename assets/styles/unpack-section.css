@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 .unpack-section {
   margin: 10em auto;
   text-align: center;
@@ -17,20 +10,24 @@
 /* Unpack Title & Header */
 
 .unpack__header-title {
-  font-size: var(--font-size-3xl);
+  font-size: 80px;
   letter-spacing: 20px;
-  color: var(--color-primary-dark);
+  color: #333d3c;
   position: relative;
 }
 
 .unpack__header-content {
   margin: 2em auto;
   max-width: 540px;
-  font-size: var(--font-size-lg);
-  color: var(--color-primary);
+  font-size: 18px;
+  color: #868782;
   text-transform: uppercase;
   letter-spacing: 2px;
   line-height: 1.6em;
+}
+
+.section-languages {
+  display: flex;
 }
 
 .site__section {
@@ -49,7 +46,7 @@
 }
 
 .site__section .list-item {
-  padding-left: 5em;
+  padding-left: 5em!important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

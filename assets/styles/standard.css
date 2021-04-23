@@ -4,6 +4,7 @@ body, html, ul {
 }
 
 body, html {
+  /* overflow-x: hidden; */
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -20,9 +21,7 @@ ul li {
   list-style: none;
 }
 
-.section__logo, .social-icons, .section__languages {
-  width: 33.33%;
-}
+
 
 h1, h2, h3, h4, h5 {
   margin: 0;
@@ -31,7 +30,7 @@ h1, h2, h3, h4, h5 {
 }
 
 
-.section__social-lang .link {
+.social-icon {
   font-weight: 700;
   font-size: 1.2rem;
   letter-spacing: 1.8px;
@@ -88,12 +87,12 @@ h1, h2, h3, h4, h5 {
 
 /* Language Buttons */
 
-.section__social-lang {
+.social-icon {
   transition: 0.3s;
   margin: 2.5px;
 }
 
-.section__social-lang:hover {
+.social-icon :hover {
   opacity: 0.8;
 }
 
