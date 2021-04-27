@@ -1,5 +1,10 @@
-console.log("hello");
-console.log();
+// DOM ELEMENTS
+const scrollByButton = document.getElementById("scrollBy");
+const headerUnpack = document.querySelector(".section-summary")
+// SCROLL TO
+scrollByButton.addEventListener("mouseenter", function () {
+  headerUnpack.scrollIntoView(true);
+});
 AOS.init();
 
 // You can also pass an optional settings object
