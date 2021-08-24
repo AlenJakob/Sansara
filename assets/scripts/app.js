@@ -2,7 +2,7 @@
 const scrollByButton = document.getElementById("scrollBy");
 const headerUnpack = document.querySelector(".section-summary");
 // SCROLL TO
-scrollByButton.addEventListener("mouseenter", function () {
+scrollByButton.addEventListener("mouseover", function () {
   headerUnpack.scrollIntoView();
 });
 AOS.init();
